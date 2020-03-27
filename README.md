@@ -49,9 +49,9 @@ end
 
 Implemented the 1D FFT on the mixer signal output, via reshaping and performing an FFT on the output, absolute value and normalizing to the number of samples.    Plots for the 1D FFT and Range Doppler Map below with signal peaks at expected values (range @ 100, doppler @ -20).
 
-<p align="center"><img src="docimages/1DFFT.png" width="520" height="280" /></p><br></br>
+<p align="center"><img src="docimages/1Dfft.PNG" width="520" height="280" /></p><br></br>
 
-<p align="center"><img src="docimages/RangeDopplerMap.png" width="520" height="420" /></p><br></br>
+<p align="center"><img src="docimages/RangeDopplerMap.PNG" width="520" height="420" /></p><br></br>
 
 ## 2D CFAR
 
@@ -79,7 +79,7 @@ db_offset = 8;  % offset threshold in [db]
 
 where the training and guard rows are defined as in the figure below:
 
-<p align="center"><img src="docimages/CA-CFAR-definitions.png" width="520" height="420" /></p><br></br>
+<p align="center"><img src="docimages/CA-CFAR-definitions.PNG" width="520" height="420" /></p><br></br>
 
 The general CA-CFAR algorithm implemented involves:
 
@@ -90,7 +90,7 @@ The general CA-CFAR algorithm implemented involves:
 
 The result of the CA-CFAR range-doppler detection algorithm is shown below (for parameters as seen above):
 
-<p align="center"><img src="docimages/Detector.png" width="520" height="420" /></p><br></br>
+<p align="center"><img src="docimages/Detector.PNG" width="520" height="420" /></p><br></br>
 
 ### Selection of Training/Guard Cells and Offset
 
@@ -115,13 +115,13 @@ Where __discr__ is the max signal less the threshold, and Pfa is the probability
 
 
 <p align="left">
-<img src="docimages/meta_6_3_6_3_2.png" width="420" height="420" />
-<img src="docimages/meta_8_3_6_3_2.png" width="420" height="420" />
+<img src="docimages/meta_6_3_6_3_2.PNG" width="420" height="420" />
+<img src="docimages/meta_8_3_6_3_2.PNG" width="420" height="420" />
 </p><br></br>
 
 <p align="left">
-<img src="docimages/meta_6_10_8_4_4.png" width="420" height="420" />
-<img src="docimages/meta_8_10_8_4_4.png" width="420" height="420" />
+<img src="docimages/meta_6_10_8_4_4.PNG" width="420" height="420" />
+<img src="docimages/meta_8_10_8_4_4.PNG" width="420" height="420" />
 </p><br></br>
 
 
